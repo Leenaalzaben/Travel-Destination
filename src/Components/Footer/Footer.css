@@ -1,0 +1,30 @@
+footer {
+    background-color: rgb(200, 148, 44);
+    color: hsl(0, 0%, 4%);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    color: rgb(246, 238, 235);
+    padding: 0 70px;
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #0a0a09;
+}
+
+a:hover {
+    color: rgb(13, 5, 55);
+}
+
+p {
+    color: rgb(80, 41, 11);
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
