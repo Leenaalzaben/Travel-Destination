@@ -1,14 +1,29 @@
 h2 {
-    font-family: "Papyrus", "Herculanum", "Party LET", "Curlz MT", "Harrington", fantasy;
-    color: rgb(80, 41, 11);
-    text-align: center;
+    font-family: Georgia, serif;
+
+    /* font-family: "Papyrus", "Herculanum", "Party LET", "Curlz MT", "Harrington", fantasy; */
+
+    /* transform: translate(-10%, -10%); */
+
+    font-size: 25px;
+    /* font-family: "Helvetica Neue", sans-serif; */
+    color: #efca92;
+    letter-spacing: 3px;
+    line-height: 2.7;
+    font-weight: bold;
+
+    /* margin: auto; */
+    margin-bottom: 20px;
 }
 
 #image {
-    width: 100%;
-    height: 500px;
-    position: static;
-    overflow: hidden;
+
+    transform: translate(-10%, -1%);
+    width: 300px;
+    height: 300px;
+    background-color: #f2bc6b;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     display: flex;
 }
 
@@ -16,9 +31,47 @@ h2 {
     transform: scale(1.1);
 }
 
-img {
-    display: block;
-    margin: auto;
+.cardI:hover:hover {
+    box-shadow: 0 20px 20px 0 #f2bc6b;
+}
+
+.card img {
+
+    /* image inside card */
+    /* display: block; */
+    margin-bottom: 100px;
     max-width: 100%;
     max-height: 100%;
+    /* text-align: center; */
+    /* object-fit: contain; */
+    border-radius: 100px;
+
+
+
+
+}
+
+.card {
+    border: 3px solid rgb(63, 34, 8);
+    padding: 40px;
+    /*     margin-bottom: 200px;
+ */
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+
+
+
+}
+
+.cardI {
+    background-color: rgb(80, 41, 11);
+    padding: 10px;
+    padding-top: 1px;
+    border: 3px solid rgb(63, 34, 8);
+    margin: 90px;
+    border-radius: 100px;
+
 }
