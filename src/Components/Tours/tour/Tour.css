@@ -1,0 +1,18 @@
+.Tour {
+    background-color: #bf8b3e;
+    border-radius: 100px;
+
+}
+
+h2 {
+    color: rgb(61, 7, 7);
+    text-decoration: none;
+    letter-spacing: 5px;
+    border-bottom: none;
+
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 20px;
+    height: 20px;
+    margin: 40px;
+
+}
