@@ -1,23 +1,19 @@
 
 import "./App.css";
 import Home from "./Components/Home/Home";
-import Tour from "./Components/Tours/tour/Tour";
-
-
 import { Routes, Route } from "react-router-dom";
+import TourDetails from "./Components/TourDetails/TourDetails";
+import Navbar from "./Components/Navbar/Navbar";
 
-const ToursData = require("./data/db.json");
+const data = require("./data/db.json");
 function App() {
   return (
     <>
 
-      {/* <div className="app">
-        <Home id="home" data={ToursData} />
-      </div> */}
-
+     <Navbar/>
       <Routes>
-        <Route path="/" element={<Home id="home" data={ToursData} />}></Route>
-        <Route path="/city/:id" element={<Tour />}></Route>
+        <Route path="/" element={<Home data={data} />}></Route>
+        <Route path="/city/:id" element={<TourDetails/>}></Route>
 
       </Routes>
       

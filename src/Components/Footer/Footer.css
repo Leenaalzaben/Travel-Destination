@@ -1,18 +1,19 @@
 footer {
-    background-color: rgb(80, 41, 11);
-    padding: 20px 10px;
+    background-color: rgb(61, 7, 7);
+    padding: 30px 20px 20px 10px;
     text-align: center;
-    margin-top: 200px;
-    width: 100%;
-
+    /* margin-top: 200px; */
+    margin: auto;
+    width: 90%;
 
 }
 
 
 
 .footerI a {
+
     color: rgb(246, 238, 235);
-    padding: 0 70px;
+    /* padding: 0 70px; */
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 50px;
@@ -22,11 +23,20 @@ footer {
     font-family: "Lucida Console", Monaco, monospace;
     font-weight: bold;
     text-decoration: none;
+    padding: 30px 70px 20px 20px;
+    letter-spacing: 3px;
+
+
 }
 
 a:hover {
-    color: rgb(118, 196, 22);
+    color: rgb(226, 202, 136);
+    transform: scale(1.1);
+    box-shadow: 0 0 50px 0 #d95d54;
+
+
 }
+
 
 p {
     color: rgb(244, 240, 236);
@@ -35,6 +45,7 @@ p {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 10px;
+    letter-spacing: 3px;
 
 
     text-align:right;

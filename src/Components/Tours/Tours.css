@@ -1,18 +1,13 @@
-h2 {
+/* h2 {
     font-family: Georgia, serif;
 
-    /* font-family: "Papyrus", "Herculanum", "Party LET", "Curlz MT", "Harrington", fantasy; */
-
-    /* transform: translate(-10%, -10%); */
-
+    
     font-size: 25px;
-    /* font-family: "Helvetica Neue", sans-serif; */
     color: #efca92;
     letter-spacing: 3px;
     line-height: 2.7;
     font-weight: bold;
 
-    /* margin: auto; */
     margin-bottom: 20px;
 }
 
@@ -37,13 +32,10 @@ h2 {
 
 .card img {
 
-    /* image inside card */
-    /* display: block; */
     margin-bottom: 100px;
     max-width: 100%;
     max-height: 100%;
-    /* text-align: center; */
-    /* object-fit: contain; */
+
     border-radius: 100px;
 
 
@@ -54,8 +46,7 @@ h2 {
 .card {
     border: 3px solid rgb(63, 34, 8);
     padding: 40px;
-    /*     margin-bottom: 200px;
- */
+ 
     margin-bottom: 0px;
     margin-top: 10px;
     margin-left: 10px;
@@ -74,4 +65,50 @@ h2 {
     margin: 90px;
     border-radius: 100px;
 
+} */
+.Tours {
+    background-color: #0e5476;
+    padding: 10px;
+    padding-top: 1px;
+    border: 3px solid rgb(63, 34, 8);
+    /* margin: 350px; */
+    margin: 100px;
+
+    /* border-radius: 100px; */
+
+    border: 3px solid rgb(63, 34, 8);
+    padding: 30px;
+
+    margin-top: 0px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+
+
+
+
+
+
+
+
+
+
+
 }
+
+.Tours .key {
+    background-color: rgb(61, 7, 7);
+
+
+}
+
+/* #image:hover img {
+    transform: scale(1.1);
+} */
+
+.Tours :hover:hover {
+    box-shadow: 0 0px 40px 0 #ed9f51;
+}
+
+/* .key :hover:hover {
+    box-shadow: 0 0 50px 0 #4b0e0a;
+} */
